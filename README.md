@@ -1,6 +1,6 @@
 # WOR**L**DLE
 
-Play this geographical wordle here: https://worldle.teuteuf.fr !
+Jogue Palabro de Geografia aqui: https://mundlo.vercel.app/ !
 
 ## Contributions & PR
 
