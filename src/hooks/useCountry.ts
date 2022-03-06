@@ -5,6 +5,7 @@ import { countriesWithImage, Country } from "../domain/countries";
 const forcedCountries: Record<string, string> = {
   "2022-02-02": "TD",
   "2022-02-03": "PY",
+  "2022-03-07": "FO",
 };
 
 export function useCountry(dayString: string): [Country, number, number] {
@@ -26,7 +27,7 @@ export function useCountry(dayString: string): [Country, number, number] {
   }, [dayString]);
 
   const randomAngle = useMemo(
-    () => seedrandom.alea(dayString)() * 360,
+    () => seedrandom.alea(dayString)() * 36,
     [dayString]
   );
 
